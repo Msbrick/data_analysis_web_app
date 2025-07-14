@@ -33,7 +33,6 @@ lego_data = {
 }
 
 st.title("레고 시리즈별 제품 안내")
-st.write("Streamlit으로 만든 간단한 레고 제품 정보 앱입니다.")
 
 # 시리즈 선택
 selected_series = st.selectbox("레고 시리즈를 선택하세요:", list(lego_data.keys()))
